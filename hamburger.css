@@ -1,0 +1,98 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(230, 220, 220);
+}
+#menu{
+    width: 80px;
+    height: 65px;
+    margin: 11px 0px 16px 14px;
+    background-color: chartreuse;
+    color: white;
+    cursor:pointer;
+    z-index:-1;
+    padding: 1px 0px 0px 0px;
+
+}
+.br{
+    display: block;
+    transition: 0.3s ease;
+    background-color: blue;
+    height: 5px;
+    width: 58px;
+    border-radius: 0px;
+    margin:10px;
+}
+/* #bar1{
+    transform:translate(-4px);
+
+}
+#bar3{
+    transform:translate(4px); */
+    
+    
+    .nav{
+        margin: 0px;
+        padding:0px 0px 0px 50px;
+        transition:1s ease;
+        display:none;
+    }
+    .header{
+        height:100px;
+        width:1500px;
+        background-color: rgb(255, 81, 0);
+        padding: 42px 0px 0px 0px;
+    }
+.nav li a{
+    text-decoration: none;
+    color:green;
+}
+.nav li a:hover {
+   color:blue;
+   font-size:30px;
+   font-weight: bold;
+
+}
+.nav li {
+    list-style:none;
+    padding:10px;
+}
+/* .icon .bar{
+    background-color: cyan; */
+#navigation{
+margin:0px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+
+}
+.icon #br1{
+    transform: translateY(26px) rotate(-38deg)
+}
+.icon #br3{
+    transform: translateY(-6px) rotate(45deg);
+ }
+ .icon #br2{
+    opacity: -1.9;
+ }
+ .change{
+background-color:yellow;
+height:700px;
+margin:0px;
+position:absolute;
+font-size: 30px;
+top:0px;
+z-index: -1;
+width:148px;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+ }
+ @media only screen and (max-width:1000px) and (min-width:300px){
+    .change{
+        width:100%;
+
+    }
+
+ }
+
